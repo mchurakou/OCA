@@ -1,4 +1,4 @@
-package pack;
+package access;
 
 /**
  * Created by mikalai on 15.10.2016.
