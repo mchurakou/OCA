@@ -1,18 +1,18 @@
 package pack;
+import pack.b.*;
 
-import pack.b.B;
-import pack.b.c.C;
-
-/**
- * Created by mikalai on 16.10.2016.
- */
 public class A {
+    public A() {
+        System.out.println("A");
+    }
+
+    public void go(){
+        System.out.println("AA");
+    }
 
     public static void main(String[] args) {
-
-        B b = new B();
-        C c  = new C();
-
-        AA aa = new AA();
+        B b = new C();
+        A a = b;
+        a.go();
     }
 }

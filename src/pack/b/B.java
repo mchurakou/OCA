@@ -1,7 +1,15 @@
 package pack.b;
+import pack.A;
 
-/**
- * Created by mikalai on 16.10.2016.
- */
-public class B {
+public class B extends A
+{
+
+    public void go(){
+        System.out.println("BB");
+    }
+    public B() {
+        System.out.println("B");
+
+    }
 }
+

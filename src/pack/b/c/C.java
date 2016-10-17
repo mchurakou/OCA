@@ -1,7 +1,14 @@
 package pack.b.c;
+import pack.b.B;
 
-/**
- * Created by mikalai on 16.10.2016.
- */
-public class C {
+public class C extends B
+{
+    public C() {
+        System.out.println("C");
+
+    }
+
+    public void go(){
+        System.out.println("CC");
+    }
 }
