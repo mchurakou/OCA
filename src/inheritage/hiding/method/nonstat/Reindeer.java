@@ -1,4 +1,4 @@
-package access;
+package inheritage.hiding.method.nonstat;
 
 /**
  * Created by mikalai on 15.10.2016.

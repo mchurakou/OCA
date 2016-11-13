@@ -1,4 +1,4 @@
-package inheritage;
+package inheritage.hiding.member;
 
 public class Animal
 {

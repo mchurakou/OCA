@@ -1,4 +1,4 @@
-package inheritage;
+package inheritage.hiding.member;
 
 public class Jellyfish extends Animal {
     private int length = 5;
