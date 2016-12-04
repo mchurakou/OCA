@@ -17,7 +17,7 @@ public class Swit {
                 System.out.println(5);
             case: z
                 System.out.println(z);
-            case: 'a' :
+            case: 'a'
                 System.out.println(44);
             case: 3
                 System.out.println(33);
